@@ -1,0 +1,85 @@
+/* 아래에 코드를 작성하시오. */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  text-decoration-line: none;
+  text-decoration-color: none;
+  color: black;
+}
+
+.nav-logo:hover {
+  color: black;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+
+.nav-contents {
+  display: flex;
+  flex-basis: auto;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-content-options {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+
+.nav-content-options:hover {
+  color: black;
+  font-weight: 300;
+  text-decoration-line: none;
+}
+
+.main-img{
+  width:100%
+}
+
+.card{
+  margin: 1rem;
+  position:relative;
+  border: solid black;
+  text-align: center;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(105%);
+}
+
+.prod-heart{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.prod-heart:hover {
+  transform:scale(110%)
+}
+
+.row {
+  width: 100%
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 1rem;
+}
+
+.prod-text1{
+  margin-bottom: 0;
+  margin-top: 0.75rem;
+  font-weight: bold;
+}
+
+.prod-text2{
+  margin-top: 0.1rem;
+}
